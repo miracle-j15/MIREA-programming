@@ -1,0 +1,26 @@
+# Binaries
+comp
+*/comp
+
+# LibreOffice lock files
+.~lock.*
+
+# Word/Office docs
+*.docx
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Go task binaries (file named same as parent dir)
+sem2/**/task[0-9]/task[0-9]
+sem2/**/task[0-9][0-9]/task[0-9][0-9]
+
+# Backup files
+*.bak
+
+# IDE
+.idea/
+
+# Claude worktrees / session data
+**/.claude/
